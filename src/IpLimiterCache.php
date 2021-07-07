@@ -2,6 +2,7 @@
 
 namespace Brezgalov\RateLimiting;
 
+use Yii;
 use yii\base\Action;
 use yii\caching\CacheInterface;
 use yii\filters\RateLimitInterface;
