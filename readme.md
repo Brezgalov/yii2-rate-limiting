@@ -16,6 +16,6 @@
             'class' => IpLimiterCache::class,
             'only' => ['my-action'],
             'requests' => 1,
-            'perSec' => 120,
+            'perSecs' => 120,
         ]),
     ],
